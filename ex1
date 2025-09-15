@@ -1,0 +1,51 @@
+//KAUA DA SILVA AGUIAR
+import java.util.Scanner;
+
+public class Main{
+public static void main(String[] args) {
+    Scanner i=new Scanner(System.in);
+    System.out.println("escolha um numero: ");
+    System.out.println("1");
+    System.out.println("2");
+    System.out.println("3");
+    System.out.println("4");
+    System.out.println("5");
+    System.out.println("6");
+    System.out.println("7");
+
+   int semana= i.nextInt();
+
+   switch (semana){
+       case 1:
+           System.out.println("Voce Escolheu o 1 ");
+           System.out.println("Domingo");
+        break;
+       case 2:
+           System.out.println("Voce Escolheu numero o 2 ");
+           System.out.println("Segunda Feira");
+           break;
+       case 3:
+           System.out.println("Voce escolheu numero 3 ");
+           System.out.println("Terça Feira");
+           break;
+           case 4:
+           System.out.println("Voce escolheu numero 4 ");
+           System.out.println("Quarta Feira");
+           break;
+           case 5:
+           System.out.println("Voce escolheu numero 5 ");
+           System.out.println("Quinta Feira");
+           break;
+       case 6:
+           System.out.println("Voce Escolheu Numero 6");
+           System.out.println("Sexta feira");
+
+           case 7:
+               System.out.println("Voce Escolheu Numero 7");
+               System.out.println("Sabado");
+
+   }
+
+    }
+}
+
