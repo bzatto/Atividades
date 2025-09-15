@@ -1,0 +1,28 @@
+//KAUA DA SILVA AGUIAR
+import java.util.Scanner;
+
+public class ex1 {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.println("Digite o período em que você estuda \nM - Matutino, \nV - Vespertino, \nN - Noturno): \n");
+        String periodo = scanner.nextLine().toUpperCase();
+
+        switch (periodo) {
+            case "M":
+                System.out.println("Bom dia!");
+                break;
+            case "V":
+                System.out.println("Boa tarde!");
+                break;
+            case "N":
+                System.out.println("Boa noite!");
+                break;
+            default:
+                System.out.println("Valor inválido. Use M, V ou N.");
+                break;
+        }
+
+        scanner.close();
+    }
+}
